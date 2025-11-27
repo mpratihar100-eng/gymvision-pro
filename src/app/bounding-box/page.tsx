@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef, useEffect, useState } from 'react'
-import { Type, RotateCcw, Download, RotateCw } from 'lucide-react'
+import { Type, RotateCcw, Download } from 'lucide-react'
 
 interface BoundingBox {
   id: string
