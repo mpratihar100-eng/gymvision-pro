@@ -51,7 +51,7 @@ export default function BoundingBoxPage() {
     }
 
     // Draw existing boxes
-    boxes.forEach((box, idx) => {
+    boxes.forEach((box) => {
       ctx.strokeStyle = box.color
       ctx.lineWidth = selectedBox === box.id ? 3 : 2
       ctx.strokeRect(box.x, box.y, box.width, box.height)
